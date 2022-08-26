@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/welcome_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Welcome"
+        android:textColor="@color/branco"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/welcome_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:textSize="18sp"
+        android:layout_below="@id/welcome"
+        android:textColor="@color/branco"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="We’re here to better your sleep"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continue_facebook"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/continue_google"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:backgroundTint="@color/branco"
+        android:layout_marginBottom="14dp"
+        android:drawableStart="@drawable/facebook_drawable"
+        android:drawablePadding="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:letterSpacing="0.1"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:text="Continue with Facebook"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/azul"
+        android:textSize="15sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continue_google"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/continue_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/btn_shape"
+        android:backgroundTint="@color/branco"
+        android:drawableStart="@drawable/google_drawable"
+        android:drawablePadding="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:letterSpacing="0.1"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:text="Continue with Google"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/azul"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continue_email"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/btn_shape"
+        android:drawableStart="@drawable/email_drawable"
+        android:drawablePadding="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:letterSpacing="0.1"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:text="Continue with Email"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/branco"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BetterSleep" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorPrimaryVariant">@color/roxo_claro</item>
+        <item name="colorOnPrimary">@color/branco</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/translucida</item>
+        <item name="android:navigationBarColor">@color/translucida</item>
+    </style>
+
+    <style name="Theme.BetterSleep.Progress_Bar">
+        <item name="strokeWidth">10dp</item>
+        <item name="strokeColor">@color/branco</item>
+    </style>
+
+</resources>

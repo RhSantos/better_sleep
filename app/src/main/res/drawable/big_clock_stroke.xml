@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/preto"/>
+        </shape>
+    </item>
+    <item
+        android:top="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:bottom="2dp"
+        android:width="206dp"
+        android:height="206dp"
+        android:drawable="@drawable/big_clock"/>
+</layer-list>
